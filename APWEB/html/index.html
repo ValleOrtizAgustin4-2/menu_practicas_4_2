@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">    
+<head> <!-- Inicia los metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Actividades</title>
+    <link rel="stylesheet" href="static/css/estilos.css">
+</head> <!-- Termina los metadatos -->
+<body>
+    <header>
+        <h1>Menú de Aplicaciones Web Prácticas</h1>
+    </header>
+    <div class="alumno-card"> <!-- Inicia tarjeta del alumno -->
+        <img src="static/assets/images/img_yo.png" alt="Foto del alumno">
+        <h2>Valle Ortiz Agustín Eduardo</h2>
+        <p>DS4-2 Aplicaciones Web</p>
+        <div class="dropdown"> <!-- Inicia botón de selección -->
+            <button class="dropbtn">Selecciona un mes</button>
+        </div> <!-- Termina botón de selección -->
+        <div class="dropdown-content mes"> <!-- Inicia botones de los meses-->
+            <button class="dropbtn">Septiembre</button>
+            <button class="dropbtn">Octubre</button>
+            <button class="dropbtn">Noviembre</button>
+        </div> <!-- Termina botones de los meses-->
+        <ul id="lista-tareas" class="tareas oculto"> <!-- Lista de tareas oculta por defecto-->
+
+        </ul> 
+    </div> <!-- Termina tarjeta del alumno -->
+    <div class="retro-container"> <!-- Area de retroalimentación-->
+        <label for="comentario">Tu comentario:</label>
+        <textarea id="comentario" rows="4" cols="50" placeholder="Escribe tu retroalimentación aquí..."></textarea>
+        <div class="boton-container">
+            <button onclick="mostrarMensaje()">Enviar retroalimentación</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Menu Clase - Valle Ortiz Agustín</p>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
