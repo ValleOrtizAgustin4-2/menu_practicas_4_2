@@ -42,8 +42,8 @@ header {
     cursor: pointer;
 }
 
-.dropbtn button:hover {
-    background-color: #3498ef;
+.dropbtn:hover {
+    background-color: #1e7bb9;
 }
 
 .dropdown-content {
@@ -106,7 +106,7 @@ header {
     margin-top: 1em;
 }
 
-button {
+.boton-container button {
     margin-top: 1em;
     padding: 0.6em 1.2em;
     background-color: #27ae60;
@@ -118,7 +118,7 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.boton-container button:hover {
     background-color: #219150;
 }
 

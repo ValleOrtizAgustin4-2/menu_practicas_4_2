@@ -15,12 +15,12 @@
         <h2>Valle Ortiz Agustín Eduardo</h2>
         <p>DS4-2 Aplicaciones Web</p>
         <div class="dropdown"> <!-- Inicia botón de selección -->
-            <button class="dropbtn">Selecciona un mes</button>
+            <button class="dropbtn" onclick="ocultarLista()">Selecciona un mes</button>
         </div> <!-- Termina botón de selección -->
         <div class="dropdown-content mes"> <!-- Inicia botones de los meses-->
-            <button class="dropbtn">Septiembre</button>
-            <button class="dropbtn">Octubre</button>
-            <button class="dropbtn">Noviembre</button>
+            <button class="dropbtn" onclick="mostrarTareas('septiembre')">Septiembre</button>
+            <button class="dropbtn" onclick="mostrarTareas('octubre')">Octubre</button>
+            <button class="dropbtn" onclick="mostrarTareas('noviembre')">Noviembre</button>
         </div> <!-- Termina botones de los meses-->
         <ul id="lista-tareas" class="tareas oculto"> <!-- Lista de tareas oculta por defecto-->
 

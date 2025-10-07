@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valle Ortiz -- Fotos</title>
+    <link rel="stylesheet" href="static/css/estilo.css">
+</head>
+<body>
+    <h1>Práctica Fotográfica y Responsiva</h1>
+    <p>Tres estilos: Horizontal, vertical y tipo abanico</p>
+    <header class="site-header">
+        <div class="container nav">
+            <div class="brand">Juegos & Galería</div>
+            <button class="menu-toggle">☰</button>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#galeria-clasica">Galería clásica</a>
+                <a href="#galeria-vertical">Galería vertical</a>
+                <a href="#galeria-abanico">Galería abanico</a>
+            </nav>
+        </div>
+    </header>
+    <section id="galeria-clasica" class="section">
+        <div class="container">
+            <h2>Galería clásica (grid fluido)</h2>
+            <div class="grid galeria">
+                <img src="static/assets/images/j1.jpg" alt="Imagen 1">
+                <img src="static/assets/images/j2.jpg" alt="Imagen 2">
+                <img src="static/assets/images/j3.jpg" alt="Imagen 3">
+                <img src="static/assets/images/e1.png" alt="Evidencia 1">
+                <img src="static/assets/images/e2.png" alt="Evidencia 2">
+                <img src="static/assets/images/e3.png" alt="Evidencia 3">
+                <img src="static/assets/images/e4.jpeg" alt="Evidencia 4">
+                <img src="static/assets/images/e5.png" alt="Evidencia 5">
+                <img src="static/assets/images/e6.png" alt="Evidencia 6">
+                <img src="static/assets/images/e7.png" alt="Evidencia 7">
+                <img src="static/assets/images/e8.png" alt="Evidencia 8">
+                <img src="static/assets/images/e9.png" alt="Evidencia 9">
+                <img src="static/assets/images/f1.png" alt="Uso en Escritorio">
+                <img src="static/assets/images/f2.jpeg" alt="Uso en Móvil">
+            </div>
+        </div>
+    </section>
+    <section id="galeria-vertical" class="section alt">
+        <h2>Galería vertical (scroll suave)</h2>
+        <div class="vertical galeria">
+            <img src="static/assets/images/j1.jpg">
+            <img src="static/assets/images/j2.jpg">
+            <img src="static/assets/images/j3.jpg">
+            <img src="static/assets/images/j4.jpg">
+            <img src="static/assets/images/j5.jpeg">
+            <img src="static/assets/images/j6.jpg">
+        </div>
+    </section>
+    <section id="galeria-abanico" class="section">
+        <div class="abanico galeria">
+            <figure class="card"><img src="static/assets/images/j1.jpg"><figcaption>Abanico 1</figcaption></figure>
+            <figure class="card"><img src="static/assets/images/j2.jpg"><figcaption>Abanico 2</figcaption></figure>
+            <figure class="card"><img src="static/assets/images/j3.jpg"><figcaption>Abanico 3</figcaption></figure>
+            <figure class="card"><img src="static/assets/images/j4.jpg"><figcaption>Abanico 4</figcaption></figure>
+            <figure class="card"><img src="static/assets/images/j5.jpeg"><figcaption>Abanico 5</figcaption></figure>
+            <figure class="card"><img src="static/assets/images/j6.jpg"><figcaption>Abanico 6</figcaption></figure>
+        </div>
+    </section>
+    <div id="visor" class="visor">
+        <button id="closeVisor">x</button>
+        <button id="prevVisor"><</button>
+        <img id="visorImg" alt="Imagen ampliada">
+        <button id="nextVisor">></button>
+    </div>
+    <footer class="site-fotter">
+        <p>© <span id="year"></span> Práctica Fotográfica -- Valle Ortiz Agustín</p>
+    </footer>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
